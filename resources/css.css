@@ -1,0 +1,139 @@
+
+/* Start of Reset Code */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 12pt;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of reset code */
+
+body {
+	font-family:"arial";
+	font-size:1.1em;
+	background-image:url('../images/bg.png');
+	background-repeat:no-repeat;
+	background-attachment:absolute;
+	background-color:#c0c0c0;
+	color:#000;
+	
+}
+
+a:link, a:visited {
+	color:#224386;
+}
+a:hover {
+	color:#059317;
+	text-decoration:none;
+}
+
+h1 {
+	font-weight:bold;
+	font-size:2em;
+	text-align:center;
+	color:#224386;
+	padding-bottom:15px;
+}
+
+span.highlight {
+	font-weight:bold;
+	font-size:1.2em;
+	color:#224386;
+}
+
+div.logo {
+	float:left;
+}
+
+div.sideMenu {
+	font-family:"Diehl Deco";
+	float:left;
+	clear:left;
+	width:250px;	
+	font-weight:bold;
+	line-height:2em;
+}
+
+div.sideMenu li {
+	padding:0px 0px 0px 10px;
+}
+
+div.sideMenu li:hover {
+	padding:0px 0px 0px 5px;
+	border-left:5px solid #059317;
+}
+
+div.mainContent {
+	
+	left:300px;
+	padding:50px 50px 0px 300px;
+	
+}
+
+div.footer {
+	color:#ffffff;
+	background-color:#3d485b;
+	padding:0px 15px 0px 0px;
+	text-align:right;
+	line-height:1.5em;
+	margin:10px 0px 10px 0px;
+}
+
+span.contactType {
+	font-weight:bold;
+	color:#059317;
+}
+
+div.site_thumbnail {
+	float:left;	
+	height:185px;
+	width:296px;
+	margin:5px 5px 5px 5px;
+	border:2px solid black;
+}

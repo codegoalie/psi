@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+<?php
+require_once('resources/page_modules.php');
+
+page_titleJqueryCSS();
+?>
+		
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("div[class=sideMenu]").hide().slideDown("slow");		
+	});
+</script>
+
+<link rel="stylesheet" title="Primary Style" href="resources/css.css" type="text/css">
+
+</head>
+<body>
+<?php
+page_logo();
+page_sidemenu();
+?>
+
+<div class='mainContent'>
+<h1>A La Carte or Made To Order</h1>
+PSI is proud to offer two levels of pricing. Our first is our ‘a la carte’ options. You can pick and choose only the features you want on your site. If you don’t need us to create a logo for you, we won’t charge you for one. If you don’t need an ‘About Us’ page, we won’t charge you for one. This pricing scheme becomes even more effective after initial construction because you only pay for the actual changes. Adding elements to a page is just that. It’s not a whole new page and we don’t expect you to pay for one. You are only charged what we do.
+<P><BR>Your website is often the first place potential customers or clients will see your business. <span class='highlight'>It has to be right.</span> We use a 2 phase approval process whenever we build something for you. We’ll take your initial requirements and give you our best effort. If what we come up with is not exactly what you need, we will tweak it twice more before the changes are posted live on your site.
+<P><BR>Sometimes small changes need to be made quickly; you need to make an announcement or you have updated some copy. For these changes, PSI also offers ‘Quick-Changes.’ These changes are the ones that will probably be your most frequent changes. Things like most text content changes or addition, most image changes, color changes, font and text size changes are Quick-Changes. Since these changes are usually minor in nature but can have a major impact on the site, we sell pre-paid packs of Quick-Changes. This method eliminates the need of estimates, proposals and approvals. We can skip the hoops and simply update your site.
+
+</div> <!-- end mainContent -->
+<?php
+page_footer();
+?>
+</body>
+</html>

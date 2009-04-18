@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+<?php
+require_once('resources/page_modules.php');
+
+page_titleJqueryCSS();
+?>
+		
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("div[class=sideMenu]").hide().slideDown("slow");
+	});
+</script>
+
+<link rel="stylesheet" title="Primary Style" href="resources/css.css" type="text/css">
+
+</head>
+<body>
+<?php
+page_logo();
+page_sidemenu();
+?>
+
+<div class='mainContent'>
+<h1>Bringing the Internet to Everyone</h1>
+<BR><BR><BR><BR><BR><BR>
+Presence Solution Innovations, or PSI, is a web design and construction company dedicated to creating innovative solutions to the web presence needs of today's businesses. We specialize in getting you established on the web and creating unique and dynamic ways to deliver your products or services to your customers and clients.
+</div> <!-- end mainContent -->
+<?php
+page_footer();
+?>
+</body>
+</html>

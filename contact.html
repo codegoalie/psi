@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+<?php
+require_once('resources/page_modules.php');
+
+page_titleJqueryCSS();
+?>
+		
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("div[class=sideMenu]").hide().slideDown("slow");		
+	});
+</script>
+
+<link rel="stylesheet" title="Primary Style" href="resources/css.css" type="text/css">
+
+</head>
+<body>
+<?php
+page_logo();
+page_sidemenu();
+?>
+
+<div class='mainContent'>
+<h1>We'd Love to Hear from You</h1>
+<BR><BR><BR><BR><BR><BR><BR>
+<span class='contactType'>e-mail</span> chris [at] psinnovations [dot] com<BR>
+<span class='contactType'>phone</span> 330.357.1270<BR>
+<span class='contactType'>physical</span> 1202 Spruce Court | Kent, OH 44240<BR>
+</div> <!-- end mainContent -->
+<?php
+page_footer();
+?>
+</body>
+</html>

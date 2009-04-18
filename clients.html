@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+<?php
+require_once('resources/page_modules.php');
+
+page_titleJqueryCSS();
+?>
+		
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("div[class=sideMenu]").hide().slideDown("slow");		
+	});
+</script>
+
+<link rel="stylesheet" title="Primary Style" href="resources/css.css" type="text/css">
+
+</head>
+<body>
+<?php
+page_logo();
+page_sidemenu();
+?>
+
+<div class='mainContent'>
+<h1>People Who Made the Right Choice</h1>
+<div class='site_thumbnail'><a href='http://www.dawgpoundnation.com'><img border=0 src='images/dawg_thumb.png'></a></div>
+<div class='site_thumbnail'><a href='http://www.theclaridgegroup.com'><img border=0 src='images/tcg_thumb.png'></a></div>
+<div class='site_thumbnail'><a href='http://www.shopkimberly.com'><img border=0 src='images/shopKim_thumb.png'></a></div>
+</div> <!-- end mainContent -->
+<?php
+page_footer();
+?>
+</body>
+</html>
