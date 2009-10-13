@@ -7,14 +7,13 @@
 	/*margin-bottom:1em;*/
 	font-weight:bold;
 	padding:.25em .25em;
-	border-bottom:1px white dashed;
-	border-right:1px white dashed;
 	border-left:1px #224386 dashed;
 	border-top:1px #224386 dashed;
 }
 .PSI_container:hover
 {
 	background-color:#224386;
-	color:#059317;
-	border:1px #059317 solid;
+	color:#059317;	
+	border-left:1px #059317 solid;
+	border-top:1px #059317 solid;
 }
