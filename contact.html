@@ -3,36 +3,35 @@
 <html>
 
 <head>
+<title>Contact Us - Presence Solution Innovations</title>
 <?php
-require_once('resources/page_modules.php');
-
-page_titleJqueryCSS();
+include 'resources/header_includes.html';
 ?>
 		
 <script type="text/javascript">
 	$(document).ready(function(){
-		$("div[class=sideMenu]").hide().slideDown("slow");		
+		$("div[class=sideMenu]").hide().slideDown("slow");
 	});
 </script>
 
-<link rel="stylesheet" title="Primary Style" href="resources/css.css" type="text/css">
+
 
 </head>
 <body>
 <?php
-page_logo();
-page_sidemenu();
+include 'resources/logo.html';
+include 'resources/sidemenu.html';
+
 ?>
 
-<div class='mainContent'>
-<h1>We'd Love to Hear from You</h1>
-<BR><BR><BR><BR><BR><BR><BR>
+<div class='mainContent'><h1>We'd Love to Hear from You</h1>
+<BR><BR>
 <span class='contactType'>e-mail</span> chris [at] psinnovations [dot] com<BR>
-<span class='contactType'>phone</span> 330.357.1270<BR>
-<span class='contactType'>physical</span> 1202 Spruce Court | Kent, OH 44240<BR>
+<span class='contactType'>phone</span> 330.377.3535<BR>
+<span class='contactType'>physical</span> 755 Bridgeport Avenue #202 | Streetsboro, OH 44241<BR>
 </div> <!-- end mainContent -->
 <?php
-page_footer();
+include 'resources/footer.html';
 ?>
 </body>
 </html>

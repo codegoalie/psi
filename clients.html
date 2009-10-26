@@ -3,35 +3,36 @@
 <html>
 
 <head>
+<title>Portfolio - Presence Solution Innovations</title>
 <?php
-require_once('resources/page_modules.php');
-
-page_titleJqueryCSS();
+include 'resources/header_includes.html';
 ?>
 		
 <script type="text/javascript">
 	$(document).ready(function(){
-		$("div[class=sideMenu]").hide().slideDown("slow");		
+		$("div[class=sideMenu]").hide().slideDown("slow");
 	});
 </script>
 
-<link rel="stylesheet" title="Primary Style" href="resources/css.css" type="text/css">
+
 
 </head>
 <body>
 <?php
-page_logo();
-page_sidemenu();
+include 'resources/logo.html';
+include 'resources/sidemenu.html';
+
 ?>
 
 <div class='mainContent'>
-<h1>People Who Made the Right Choice</h1>
-<div class='site_thumbnail'><a href='http://www.dawgpoundnation.com'><img border=0 src='images/dawg_thumb.png'></a></div>
-<div class='site_thumbnail'><a href='http://www.theclaridgegroup.com'><img border=0 src='images/tcg_thumb.png'></a></div>
+
 <div class='site_thumbnail'><a href='http://www.shopkimberly.com'><img border=0 src='images/shopKim_thumb.png'></a></div>
+<div class='site_thumbnail'><a href='http://www.theclaridgegroup.com'><img border=0 src='images/tcg_thumb.png'></a></div>
+<div class='site_thumbnail'><a href='http://playdrink.chrismar035.com'><img border=0 src='images/playDrink_thumb.png'></a></div>
+<div class='site_thumbnail'><a href='http://conard.psinnovations.com'><img border=0 src='images/conard_thumb.png'></a></div>
 </div> <!-- end mainContent -->
 <?php
-page_footer();
+include 'resources/footer.html';
 ?>
 </body>
 </html>

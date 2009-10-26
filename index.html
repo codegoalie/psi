@@ -4,9 +4,7 @@
 
 <head>
 <?php
-require_once('resources/page_modules.php');
-
-page_titleJqueryCSS();
+include 'resources/header_includes.html';
 ?>
 		
 <script type="text/javascript">
@@ -15,22 +13,38 @@ page_titleJqueryCSS();
 	});
 </script>
 
-<link rel="stylesheet" title="Primary Style" href="resources/css.css" type="text/css">
+
 
 </head>
 <body>
 <?php
-page_logo();
-page_sidemenu();
+include 'resources/logo.html';
+include 'resources/sidemenu.html';
+
 ?>
 
 <div class='mainContent'>
-<h1>Bringing the Internet to Everyone</h1>
+<BR>
 <BR><BR><BR><BR><BR><BR>
-Presence Solution Innovations, or PSI, is a web design and construction company dedicated to creating innovative solutions to the web presence needs of today's businesses. We specialize in getting you established on the web and creating unique and dynamic ways to deliver your products or services to your customers and clients.
+Presence Solution Innovations, or PSI, is a web design and construction company based on Streetsboro, OH. <BR> We are currently a one man organization.
+I, Chris (Hi!), do it all and I promise to <span class='highlight'>take care of you and your needs from start to finish</span> and beyond.
+<BR><BR><p>I am dedicated to creating innovative solutions to the web presence needs of today's businesses. I specialize in getting you established on the 
+web and <span class='highlight'>creating unique and dynamic ways to deliver your products or services</span> to your customers and clients.
+<BR><BR><p>Whether you are established on the web, or are just dipping your toes, <span class='highlight'>I'm here for you.</span> I do two things for my clients. 
+First, I take <span class='highlight'>your ideas and goals</span> and convert them into actionable solutions for the internet. From a blog or news system to and 
+online store to a web portal to connect employees across the globe, I provide each <span class='highlight'>unique client with a unique solution</span>. Second, 
+I will build your site for you. I have some template ideas to get us started, but you don't have to pick from our catalog or hope that you fit into one of 
+five designs. <span class='highlight'>Your business is unique and your site should be too.</span>
+<BR><BR><p>Another cool thing about Presence is that I am completely transparent with my work. You can be as involved in the project as you want. If you want 
+to point me in a direction and I'll come back with something awesome, that is great. If you would like to check-in all along the way and tweak things as we go, 
+that is great too. You are free to see the work in progress at any time. It is always available.
+<BR><BR>Last thing, then I'll leave you to <a href='clients.html'>check out my work</a>, we always offer a <span class='highlight'>90 day money back guarantee</span>. 
+If at any point during the development process or up to 90 days from a project completion date you are unsatisfied, for any reason, just let me know and I will give you
+any money you've put into that project. Also, keep anything I've deployed to your site. Don't worry though, that won't happen. ;)
+<BR><BR>That was an overview of what I do and my philosophy. For more specifics, check out <a href='pricing.html'>the pricing guide</a>.
 </div> <!-- end mainContent -->
 <?php
-page_footer();
+include 'resources/footer.html';
 ?>
 </body>
 </html>

@@ -4,35 +4,59 @@
 
 <head>
 <?php
-require_once('resources/page_modules.php');
-
-page_titleJqueryCSS();
+include 'resources/header_includes.html';
 ?>
 		
 <script type="text/javascript">
 	$(document).ready(function(){
-		$("div[class=sideMenu]").hide().slideDown("slow");		
+		$("div[class=sideMenu]").hide().slideDown("slow");
 	});
 </script>
 
-<link rel="stylesheet" title="Primary Style" href="resources/css.css" type="text/css">
+
 
 </head>
 <body>
 <?php
-page_logo();
-page_sidemenu();
+include 'resources/logo.html';
+include 'resources/sidemenu.html';
+
 ?>
 
 <div class='mainContent'>
-<h1>A La Carte or Made To Order</h1>
-PSI is proud to offer two levels of pricing. Our first is our ‘a la carte’ options. You can pick and choose only the features you want on your site. If you don’t need us to create a logo for you, we won’t charge you for one. If you don’t need an ‘About Us’ page, we won’t charge you for one. This pricing scheme becomes even more effective after initial construction because you only pay for the actual changes. Adding elements to a page is just that. It’s not a whole new page and we don’t expect you to pay for one. You are only charged what we do.
-<P><BR>Your website is often the first place potential customers or clients will see your business. <span class='highlight'>It has to be right.</span> We use a 2 phase approval process whenever we build something for you. We’ll take your initial requirements and give you our best effort. If what we come up with is not exactly what you need, we will tweak it twice more before the changes are posted live on your site.
-<P><BR>Sometimes small changes need to be made quickly; you need to make an announcement or you have updated some copy. For these changes, PSI also offers ‘Quick-Changes.’ These changes are the ones that will probably be your most frequent changes. Things like most text content changes or addition, most image changes, color changes, font and text size changes are Quick-Changes. Since these changes are usually minor in nature but can have a major impact on the site, we sell pre-paid packs of Quick-Changes. This method eliminates the need of estimates, proposals and approvals. We can skip the hoops and simply update your site.
+<h2>Flat One Time Prices<h2>
+<h3>Website 101</h3>
+<div class='price'>$100</div>
+Our starter pack for a new website. You get a new site; designed and ready to go. Provide the logo and some content and I'll can make as many pages as you'd like.
+<BR><BR>
+<h3>Logo Design</h3>
+<div class='price'>Starting at $50</div>
+A classy, no-frills logo. A great start until your site takes off!
+<BR><BR>
+<h3>Additional Pages</h3>
+<div class='price'>$15</div>
+As your site grows, you will want to add more pages and sections. I want that to be an opportunity not a burden.
+<BR><BR>
+<h2>Hourly Prices</h2>
+All hourly work can be done on contract; for a flat rate estimate.
+<BR><BR>
+<h3>Site Design</h3>
+<div class='price'>$25</div>
+Want to redesign a part of a site? Easy as done. This includes creating images, buttons, icons and image editing (photoshopping).
+<BR><BR>
+<h3>Site Construction</h3>
+<div class='price'>$20</div>
+New Custom pages, adding or deleting content or items to a page or pages.
+<BR><BR>
+<h3>Site Coding</h3>
+<div class='price'>$30</div>
+This is the good stuff. Any custom PHP or dynamic custom elements on your site.
+<BR><BR>
+<h2>Any work can also be done on contract. I will supply an estimate based on these prices for all work.</h2>
 
 </div> <!-- end mainContent -->
 <?php
-page_footer();
+include 'resources/footer.html';
 ?>
 </body>
 </html>

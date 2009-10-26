@@ -81,6 +81,16 @@ h1 {
 	padding-bottom:15px;
 }
 
+h2
+{
+	color:#224386;
+	text-align:center;
+	font-size:2em;
+}
+
+h3 { font-size:	1.5em; }
+h4 { font-size:	1.2em; }
+
 span.highlight {
 	font-weight:bold;
 	font-size:1.2em;
@@ -112,12 +122,13 @@ div.sideMenu li:hover {
 div.mainContent {
 	
 	left:300px;
-	padding:50px 50px 0px 300px;
+	padding:175px 50px 0px 300px;
 	
 }
 
 div.footer {
 	color:#ffffff;
+	font-size:.5em;
 	background-color:#3d485b;
 	padding:0px 15px 0px 0px;
 	text-align:right;
@@ -136,4 +147,20 @@ div.site_thumbnail {
 	width:296px;
 	margin:5px 5px 5px 5px;
 	border:2px solid black;
+}
+
+div.site_tunmbnail:hover
+{
+	border:2px solid #3d485b;
+}
+
+.bold
+{
+	font-weight:bold;
+}
+
+.price
+{
+	font-style:italic;
+	padding-left:4em;
 }
