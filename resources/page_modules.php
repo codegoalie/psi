@@ -5,6 +5,8 @@ function page_titleJqueryCSS() {
 	<title>Presence Solution Innovatiosn - The Web, within reach</title>
 	<script type="text/javascript" src="jquery.js"></script>
 	
+  <link rel="shortcut icon" href="http://psinnovations.com/favicon.ico">
+  <link rel='icon' type='image/png' href='images/favicon.png'>
 <?php
 }
 

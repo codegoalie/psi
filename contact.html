@@ -13,7 +13,13 @@ include 'resources/header_includes.html';
 		$("div[class=sideMenu]").hide().slideDown("slow");
 	});
 </script>
+<style type='text/css'>
+  #contact_table td
+  {
+    padding:.2em .4em;
+  }
 
+</style>
 
 
 </head>
@@ -25,10 +31,20 @@ include 'resources/sidemenu.html';
 ?>
 
 <div class='mainContent'><h1>We'd Love to Hear from You</h1>
-<BR><BR>
-<span class='contactType'>e-mail</span> chris [at] psinnovations [dot] com<BR>
-<span class='contactType'>phone</span> 330.377.3535<BR>
-<span class='contactType'>physical</span> 755 Bridgeport Avenue #202 | Streetsboro, OH 44241<BR>
+  <table id='contact_table'>
+    <tr>
+      <td><span class='contactType'>e-mail</span></td>
+      <td><a href='mailto:chris@psinnovations.com'>chris@psinnovations.com</a></td>
+    </tr>
+    <tr>
+      <td><span class='contactType'>phone</span></td>
+      <td>330.377.3535</td>
+    </tr>
+    <tr>
+      <td><span class='contactType'>physical</span></td>
+      <td>755 Bridgeport Avenue #202 | Streetsboro, OH 44241</td>
+    </tr>
+  </table>
 </div> <!-- end mainContent -->
 <?php
 include 'resources/footer.html';
