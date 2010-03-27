@@ -146,12 +146,13 @@ div.site_thumbnail {
 	height:185px;
 	width:296px;
 	margin:5px 5px 5px 5px;
-	border:2px solid black;
+	border:.5em solid white;
+  padding:.1em;
 }
 
-div.site_tunmbnail:hover
+div.site_thumbnail:hover
 {
-	border:2px solid #3d485b;
+	border:.5em solid #3d485b;
 }
 
 .bold
